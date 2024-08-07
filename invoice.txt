@@ -1,0 +1,20 @@
+                     S H A I L Y 
+                       INVOICE
+
+                 2024-08-08 02:47:05
+                     Invoice# 10
+
+
+ S.no  Product Name  Price    GST(%)  Quantity  Total 
+
+ 1).   we            12       2       2.0       24.48
+
+                                      Discount: 0.73
+                                      Net Payable: 23.75
+
+
+
+*. This is a Computer Generated Invoice and does not require Signature.
+*. Return/Replacement is not allowed under any circumstances.
+
+Thanks for shopping with us

@@ -1,5 +1,8 @@
 #GROCERY STORE MANAGEMENT
 #shaily mandal 12a1
+from datetime import datetime
+now = datetime.now()
+
 def setting():
 	print("Choose an Option:")
 	print("1). Edit Shop Name")
@@ -21,7 +24,7 @@ def setting():
 		new = []
 		sk = input()
 		for i in x:
-			if sk.upper() != strip(i):
+			if sk.upper() != i.strip():
 				new.append(i)
 		file.writelines(new)
 		file.close()
@@ -48,9 +51,9 @@ def invoice():
 		counter = counter + 1
 		c.write(str(counter))
 	c.close()
-	time =0000
-	tim= str(time)
-	timee = strip(strip(strip(strip(strip(strip(strip(tim)))))))
+	
+	timee = now.strftime("%Y-%m-%d %H:%M:%S")
+	#timee = strip(tim)
 	file = open("name1.txt")
 	name = file.read().upper()
 	namep= ""
